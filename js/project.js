@@ -50,7 +50,7 @@ $(document).ready(function(){
             $('#board li').removeClass('o');
             $('#board li').removeClass('x'); 
             turns = 0;                                                                  //reseting the turns back to 0
-        }else if ($(this).hasClass('disabled')){                                    // This is so that the players know that a spot has already been selected
+        }else if ($(this).hasClass('disable')){                                    // This is so that the players know that a spot has already been selected
             alert('this spot is already filled');
         } else if (turns%2 == 0){                                                    //Turn check so that "o" goes on even and odd is 'X'
             turns++;

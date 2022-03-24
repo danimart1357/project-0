@@ -1,47 +1,12 @@
-A first level heading
+# Tic Tac Toe
 =======================
 
-A second level heading
------------------------
+Link to the game - [Tic Tac Toe](https://danimart1357.github.io/project-0/?fbclid=IwAR0jdwZsyvF490zkbTWSxtqvXiy1GRWWRpz9fK3LGDUPV0hqy1R_yXGHNuw)
+ 
+This is my first code project I have done for General Assembly.
 
-Markdown understands paragraphs 
-# Heading
-## subheading
-### sub sub heading
-> I never said that.
+This game was created using HTML, CSS and JQuery.
 
-## Text formatting
+I used the New York Times "Wordle" game as an inspiration for the color scheme and desing of my Tic Tac Toe game.
 
-That is _Italics_ or *bold*
-
-You can probably get what this is ___this___ 
-
-This is also ***bold italics***
-
-## lists
- * groucho
- * harpo
-
- * chico
-
- 1. vanilla
- 1. chocolate
- 1. caramel
-
- ## links
-
- [this is the link](http://www.ga.co/)
-
- ## Images
-
- ![Bill Murray](https://www.fillmurray.com/50/50)
-
-## code
- The name of the variable is `riplvb`. We often use `console.log()`.
-
-
- ```javascript
- const hey = function(){
-     console.log('hey!');
- }
- ```
+In future I plan on coming back and cleaning up the code to make it look better and also find a solution that is a lot easier to understand. I am still attempting to include a scoreboard into the game
