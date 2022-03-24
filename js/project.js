@@ -28,9 +28,9 @@ $(document).ready(function(){
             spot3.hasClass('o')&&spot6.hasClass('o')&&spot9.hasClass('o')||
             spot1.hasClass('o')&&spot5.hasClass('o')&&spot9.hasClass('o')||
             spot3.hasClass('o')&&spot5.hasClass('o')&&spot7.hasClass('o')){     //This is a very ugly way of looking for the winner with every possible combination of wins
-                alert('winner is O');
                 scoreO++;
-                $('#scoreO').text('');
+                alert('winner is O');
+                $('#scoreO').text(scoreO);
                 $('#board li').text('');
                 $('#board li').removeClass('disable');
                 $('#board li').removeClass('o');
@@ -42,9 +42,9 @@ $(document).ready(function(){
         spot3.hasClass('x')&&spot6.hasClass('x')&&spot9.hasClass('x')||
         spot1.hasClass('x')&&spot5.hasClass('x')&&spot9.hasClass('x')||
         spot3.hasClass('x')&&spot5.hasClass('x')&&spot7.hasClass('x')){
-            alert('winner is X');
             scoreX++;
-            $('#scoreX').text("3");
+            alert('winner is X');
+            $('#scoreX').text(scoreX);
             $('#board li').text('');
             $('#board li').removeClass('disable');
             $('#board li').removeClass('o');
@@ -69,7 +69,7 @@ $(document).ready(function(){
             spot3.hasClass('o')&&spot6.hasClass('o')&&spot9.hasClass('o')||
             spot1.hasClass('o')&&spot5.hasClass('o')&&spot9.hasClass('o')||
             spot3.hasClass('o')&&spot5.hasClass('o')&&spot7.hasClass('o')){
-                alert ('winner is O', scoreO++) ;
+              
             turns = 0;
             }
 
@@ -85,7 +85,7 @@ $(document).ready(function(){
         spot3.hasClass('x')&&spot6.hasClass('x')&&spot9.hasClass('x')||
         spot1.hasClass('x')&&spot5.hasClass('x')&&spot9.hasClass('x')||
         spot3.hasClass('x')&&spot5.hasClass('x')&&spot7.hasClass('x')){
-            alert ('winner is X', scoreX++);
+            
             turns = 0;
         }
 
@@ -98,6 +98,10 @@ $(document).ready(function(){
             $('#board li').removeClass('o');
             $('#board li').removeClass('x'); 
             turns = 0;
+            $('#scoreX').text(0);
+            $('#scoreO').text(0);
+            scoreO = 0;
+            scoreX = 0;
         })
     })
 })
