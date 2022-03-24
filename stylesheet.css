@@ -68,3 +68,14 @@ footer{
     text-align: center;
     padding: top 20px;
 }
+h3{
+    color: white;
+    font-size: large;
+    background-color: #1c1c1b;
+    background-position: center;
+    background-size: 50%;
+    width: 70%;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+}
